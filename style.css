@@ -1,0 +1,34 @@
+.title{
+    font-family: fantasy;
+    color: #f2b91f;
+}
+
+.main-container{
+    text-align: center;
+}
+
+.text{
+    font-family:fantasy;
+    font-size: 40px;
+    
+}
+.box{
+    border: 2px solid green;
+}
+
+.Vanna-White{
+    float: right;
+    height: 300px;
+    width: 50%;
+}
+
+#start{
+    width: 70px;
+    height: 30px;
+    float: right;
+}
+
+#wheel{
+    float: left;
+    text-align: center;
+}
