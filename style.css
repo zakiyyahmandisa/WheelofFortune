@@ -30,5 +30,15 @@
 
 #wheel{
     float: left;
-    text-align: center;
+    justify-content: center;
+}
+.final-guess{
+    font-family:fantasy;
+    font-size: 40px;
+    
+}
+.guess{
+    font-family:fantasy;
+    font-size: 40px;
+    
 }

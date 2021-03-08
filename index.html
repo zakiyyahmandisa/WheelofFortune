@@ -9,17 +9,22 @@
 <body>
     <div class="main-container">
     <h1 class="title">• Wheel of Fortune • </h1>
+    <button id="display-word">Start</button>
     <div class="box">
-        placeholder text for the random word
+        <p id="output"> </p>
     </div>
     <div class= "Vanna-White"> 
         <img src="Vanna-White.png">
     </div>
-    <button id="start">Start <br/></button>
+    <button id="hint">Hint <br/></button>
     <form>
-        <label class="text"> <br/> Enter Your Guesses: <br/> (3 Constanants and 1 Vowel)<br/></label>
-        <input type = "text" />
+        <label > <br/> Enter Your Guesses: <br/> (3 Constanants and 1 Vowel)<br/></label>
+        <input id="guess" type = "text" />
         <button id="enter">Enter</button>
+        <div id="validate" class=""></div>
+        <label class="final-guess"> <br/> Make Your Last Guess: <br/></label>
+        <input id="guess-word" type = "text" />
+        <button id="final-guessenter">Enter</button>
     </form>
     <div id="wheel">
         <img src="wheel.jpg" style="height:393px;width:394px">
