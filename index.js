@@ -108,6 +108,11 @@ let enter =document.getElementById("enter").addEventListener("click", function (
   output.innerHTML = ""
   for (let i = 0; i < word.length; i++) {
    // reveal it.
+    //nested loop
+    //split each letter in guess(textToValidate2)  
+    //split each letter in the word 
+    //compare character by character 
+    // then output.innerHTML += the matches, if its not in their output.innerHTML "-" 
    if (word[i] === "R" || word[i] === "S" || word[i] === "T" || word[i] === "L" || word[i] === "N" || word[i] === "E" || word[i] === textToValidate2.toUpperCase) {
     output.innerHTML += word[i];
   }
